@@ -3,12 +3,12 @@ title: Team
 ---
 
 <div class="container text-center">
-  <h1>Our Team</h1>
+  <h1>Notre équipe</h1>
 
     <ul class="list-inline text-center">
         <% ["francois", "sebastien", "ronan"].each do |buddy| %>
       <li>
-        <%= image_tag "#{buddy}.png", class: "" %>
+        <%= image_tag "#{buddy}.png", class: "avatar-large" %>
         <h3><%= buddy.capitalize %></h3>
        </li>
       <% end %>
